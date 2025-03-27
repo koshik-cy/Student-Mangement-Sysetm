@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Updatecss.css">
+</head>
+<body>
+    
+    <h2>update Student Details</h2>
+    <form action="Update" method="post">
+        <table class="container">
+            <tr>
+                <td><label>Student Id</label></td>
+                <td><input type="text" name="id" required=""></td>
+            </tr>
+            <tr>
+                <td><label>Student Name</label></td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td><label>Semester</label></td>
+                <td><input type="text" name="sem" ></td>
+            </tr>
+            <tr>
+                <td><label>Fee Balance</label></td>
+                <td><input type="text" name="fee" ></td>
+            </tr>
+            <tr>
+                <td><label>No Of Backlogs</label></td>
+                <td><input type="text" name="backlogs"></td>
+            </tr>
+            <tr>
+                <td><label>Attendance</label></td>
+                <td><input type="text" name="attendence" ></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" id="sub" value="Submit">
+    </form>
+</body>
+</html>

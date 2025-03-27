@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    background-image: url('Images/rut-miit-mPaKMvE3sHg-unsplash.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 30px;
+    color: #4169E1; 
+
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container #add {
+    background-color: #34A853;
+    border: 2px solid #34A853;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top:15px;
+    padding: 8px;
+    padding-left: 32px;
+    padding-top: 21px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    width: 190px;
+    height:40px
+
+}
+
+
+
+
+.container #update {
+    background-color: #4285F4;
+    border: 2px solid #4285F4;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 8px;
+    padding-left: 32px;
+    padding-top: 21px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    width: 190px;
+    height:40px
+    
+}
+
+.container #view {
+    background-color: #FBBC05;
+    border: 2px solid #FBBC05;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 8px;
+    padding-left: 32px;
+    padding-top: 21px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    width: 190px;
+    height:40px
+}
+
+.container #delete {
+    background-color: #EA4335;
+    border: 2px solid #EA4335;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    padding-left: 32px;
+    padding-top: 21px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    width: 190px;
+    height:40px
+}
+
